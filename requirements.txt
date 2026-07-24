@@ -1,0 +1,10 @@
+groq
+python-dotenv
+pandas
+pdfplumber
+python-docx
+beautifulsoup4
+requests
+psycopg2-binary
+sqlalchemy
+playwright
