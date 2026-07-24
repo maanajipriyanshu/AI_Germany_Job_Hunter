@@ -11,8 +11,9 @@ client = Groq(
 )
 
 # Read files
-with open("data/resume.txt", "r", encoding="utf-8") as f:
-    resume = f.read()
+from models.resume_reader import ResumeReader
+
+resume = ResumeReader.read_pdf("data/resume.pdf")
 
 with open("data/job.txt", "r", encoding="utf-8") as f:
     job = f.read()

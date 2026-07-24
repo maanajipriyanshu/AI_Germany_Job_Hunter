@@ -1,49 +1,58 @@
 **Analysis of Candidate against Job Description**
 
-### 1. Overall Match Score (0-100)
-The overall match score is 70. The candidate has relevant experience in data analysis, proficiency in Microsoft Office and Google Workspace, and a strong educational background in data science. However, the candidate lacks the required 5+ years of professional experience in data analysis or quantitative readouts.
+### 1. Overall Match Score: 60
+
+The candidate's skills and experience align with some aspects of the job description, but there are significant gaps in terms of required experience and specific skills.
 
 ### 2. Strengths
-- Strong technical skills in SQL, Python, and data processing
-- Experience in data analysis, reporting, and visualization
-- Proficient in Microsoft Office and Google Workspace
-- Strong educational background in data science
-- Ability to work independently and present findings to managers and project stakeholders
+
+* The candidate has experience in data analysis, SQL, and Python, which are relevant to the job.
+* They have worked on projects involving data cleaning, validation, and reporting, which are similar to the tasks required in the job.
+* The candidate has a strong educational background in data science and has completed relevant certifications and training programs.
 
 ### 3. Weaknesses
-- Lack of required 5+ years of professional experience in data analysis or quantitative readouts
-- Limited experience in evaluating technical or data-driven documents for correctness and clarity
-- No direct experience in quality assurance of AI-generated outputs
+
+* The candidate lacks the required 5+ years of professional experience in data analysis or quantitative readouts.
+* They do not have native or professional fluency in English, although they have listed English as a professional language.
+* The candidate's experience is mostly in retail and pharmaceutical datasets, which may not be directly applicable to the job's requirement of evaluating AI-generated artifacts.
 
 ### 4. Missing Skills
-- 5+ years of relevant professional experience in data analysis or quantitative readouts
-- Experience in evaluating technical or data-driven documents for correctness and clarity
-- Direct experience in quality assurance of AI-generated outputs
+
+* The candidate lacks experience in evaluating technical or data-driven documents for correctness and clarity.
+* They do not have experience with Google Workspace, especially slides (Google Slides / PowerPoint).
+* The candidate's proficiency in Microsoft Office is not explicitly mentioned, although they have experience with Excel.
 
 ### 5. Resume Improvements
-- Highlight relevant experience in data analysis and quantitative readouts
-- Emphasize proficiency in Microsoft Office and Google Workspace
-- Include any experience in evaluating technical or data-driven documents for correctness and clarity
-- Tailor the resume to the specific job description and requirements
 
-### 6. ATS Score
-The ATS score is 80. The candidate's resume and cover letter are well-structured and contain relevant keywords, but may not fully meet the required qualifications and experience.
+* The candidate should highlight their experience in data analysis and quantitative readouts more prominently.
+* They should emphasize their ability to evaluate technical or data-driven documents for correctness and clarity.
+* The candidate should consider adding relevant certifications or training programs to demonstrate their expertise in data analysis and evaluation.
 
-### 7. Interview Probability
-The interview probability is 60%. The candidate has a strong technical background and relevant experience, but lacks the required experience and qualifications.
+### 6. ATS Score: 70
 
-### 8. Salary Estimate
-The salary estimate is $90-$110 USD per hour, based on the candidate's skills and experience.
+The candidate's resume is well-structured and easy to read, but it may not pass through an applicant tracking system (ATS) due to the lack of specific keywords and phrases from the job description.
+
+### 7. Interview Probability: 30%
+
+Based on the candidate's skills and experience, they may not be a strong fit for the job, and their chances of being invited for an interview are relatively low.
+
+### 8. Salary Estimate: $60-$80 USD per hour
+
+Based on the candidate's experience and skills, their salary estimate is lower than the job's payout range of $80-$120 USD per hour.
 
 ### 9. Cover Letter
-The cover letter should highlight the candidate's relevant experience, technical skills, and ability to work independently. It should also emphasize the candidate's enthusiasm for the role and willingness to learn and grow.
+
+The candidate should write a cover letter that highlights their relevant experience and skills, and demonstrates their ability to evaluate technical or data-driven documents for correctness and clarity. The letter should also explain how they can contribute to the quality assurance of AI-generated outputs.
 
 ### 10. 30-day Learning Plan
-The 30-day learning plan should focus on:
-- Developing experience in evaluating technical or data-driven documents for correctness and clarity
-- Gaining knowledge of quality assurance of AI-generated outputs
-- Improving proficiency in Microsoft Office and Google Workspace
-- Enhancing data analysis and quantitative readouts skills
-- Learning about the company's specific requirements and technologies
 
-This plan will help the candidate to bridge the gap between their current skills and the required qualifications, and increase their chances of success in the role.
+To improve their chances of being hired, the candidate should focus on the following learning plan:
+
+* Day 1-5: Review the job description and requirements, and identify areas for improvement.
+* Day 6-10: Take online courses or training programs to improve their proficiency in Microsoft Office and Google Workspace.
+* Day 11-15: Practice evaluating technical or data-driven documents for correctness and clarity.
+* Day 16-20: Learn about AI-generated artifacts and their evaluation criteria.
+* Day 21-25: Improve their English language skills to achieve native or professional fluency.
+* Day 26-30: Update their resume and cover letter to highlight their new skills and experience.
+
+By following this learning plan, the candidate can improve their skills and increase their chances of being hired for the Data Analyst position.
