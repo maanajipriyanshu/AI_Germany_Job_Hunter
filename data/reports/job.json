@@ -11,11 +11,11 @@
     ],
     "weaknesses": [
         "lack of direct experience in AI-generated content evaluation",
-        "limited experience in providing written feedback"
+        "limited experience in Google Workspace"
     ],
     "missing_skills": [
         "5+ years of relevant professional experience",
-        "experience with Google Workspace"
+        "experience with Google Slides"
     ],
     "resume_improvements": [
         "tailor resume to highlight relevant experience",
@@ -28,8 +28,8 @@
     },
     "cover_letter_advice": "highlight relevant experience and skills, and express enthusiasm for the role and company",
     "learning_plan": [
-        "courses on AI-generated content evaluation",
-        "training on Google Workspace",
-        "practice providing written feedback"
-    ]
+        "learn about AI-generated content evaluation",
+        "familiarize yourself with Google Workspace and Google Slides"
+    ],
+    "company": "job"
 }

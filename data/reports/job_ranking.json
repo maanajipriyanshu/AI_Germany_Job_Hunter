@@ -1,0 +1,37 @@
+[
+    {
+        "match_score": 60,
+        "ats_score": 70,
+        "interview_probability": 40,
+        "strengths": [
+            "data analysis",
+            "SQL",
+            "Python",
+            "data validation",
+            "business intelligence"
+        ],
+        "weaknesses": [
+            "lack of direct experience in AI-generated content evaluation",
+            "limited experience in Google Workspace"
+        ],
+        "missing_skills": [
+            "5+ years of relevant professional experience",
+            "experience with Google Slides"
+        ],
+        "resume_improvements": [
+            "tailor resume to highlight relevant experience",
+            "include specific examples of evaluating technical documents"
+        ],
+        "salary_estimate": {
+            "minimum": "80",
+            "maximum": "120",
+            "currency": "USD"
+        },
+        "cover_letter_advice": "highlight relevant experience and skills, and express enthusiasm for the role and company",
+        "learning_plan": [
+            "learn about AI-generated content evaluation",
+            "familiarize yourself with Google Workspace and Google Slides"
+        ],
+        "company": "job"
+    }
+]
