@@ -2,14 +2,11 @@ from providers.groq_provider import GroqProvider
 
 
 class ResumeOptimizer:
-
     provider = GroqProvider()
 
     @staticmethod
     def optimize(resume, job_description):
-
-        prompt = f"""
-You are an ATS Resume Expert.
+        prompt = f"""You are an ATS Resume Expert.
 
 Resume:
 {resume}
