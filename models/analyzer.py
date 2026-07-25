@@ -3,6 +3,8 @@ from providers.groq_provider import GroqProvider
 
 class Analyzer:
 
+    provider = GroqProvider()
+
     @staticmethod
     def analyze(
         resume,
@@ -26,6 +28,4 @@ JOB DESCRIPTION
 {job_description}
 """
 
-        provider = GroqProvider()
-
-        return provider.analyze(prompt)
+        return Analyzer.provider.analyze(prompt)

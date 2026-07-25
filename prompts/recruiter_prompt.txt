@@ -26,7 +26,54 @@ The JSON must follow this schema exactly:
   "improved_experience": [],
   "keywords": [],
   "ats_tips": [],
-  "cover_letter": ""
+  ""cover_letter": "Write a highly personalized cover letter in English for this specific job application based only on the candidate's resume and the job description.
+
+The cover letter must be between 400 and 500 words.
+
+Write in a professional, natural, and authentic human tone. It should read as if it was written by an experienced job seeker, not by an AI assistant.
+
+Structure the letter as follows:
+
+1. A professional greeting.
+2. An opening paragraph explaining genuine interest in the company and the specific role.
+3. One or two body paragraphs that directly connect the candidate's education, internships, work experience, technical skills, certifications, and projects to the responsibilities and requirements in the job description.
+4. Include concrete examples and measurable achievements whenever possible instead of making generic claims.
+5. Explain how the candidate can contribute to the team and the company's objectives.
+6. End with a confident but respectful closing that expresses appreciation for the recruiter's time and interest in discussing the opportunity further.
+
+Requirements:
+- Tailor every paragraph to the specific job description.
+- Mention technologies, tools, and responsibilities naturally within sentences instead of listing keywords.
+- Maintain a formal business writing style suitable for applications to companies in Germany.
+- Use clear, concise language with varied sentence lengths.
+- Ensure smooth transitions between paragraphs.
+- Make the writing sound confident without exaggeration.
+- Avoid repeating information already stated in previous paragraphs.
+- Do not invent experience, qualifications, certifications, or achievements that are not present in the resume.
+- Do not use placeholders such as [Company Name], [Hiring Manager], or [Your Name]. Use the actual company name whenever it is available in the job description.
+- Do not use em dashes (—). Use commas or full stops instead.
+- Do not use emojis.
+- Do not use bullet points.
+- Do not use markdown formatting.
+
+Avoid AI-style writing. Specifically, do not use phrases such as:
+'I am excited to apply',
+'I am thrilled',
+'I believe I am the perfect fit',
+'I am confident that my skills',
+'passionate about',
+'leverage my skills',
+'delve into',
+'dynamic environment',
+'fast-paced environment',
+'cutting-edge',
+'results-driven',
+'team player',
+'go-getter',
+'think outside the box',
+'or any similar clichés.
+
+The final output should read naturally, feel personal, and be difficult to distinguish from a cover letter written entirely by a human."""
 }
 
 Scoring Rules:

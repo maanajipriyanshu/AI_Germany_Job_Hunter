@@ -5,7 +5,7 @@ from models.resume_reader import ResumeReader
 from models.job_loader import JobLoader
 from models.analyzer import Analyzer
 from models.skill_matcher import SkillMatcher
-from features.resume_optimizer import ResumeOptimizer
+from features.cover_letter_generator import CoverLetterGenerator
 
 
 # ==========================
@@ -222,8 +222,7 @@ if st.session_state.analysis_complete:
                     recruiter_prompt
                 )
 
-                st.write(result)
-
+                
                 result["company"] = job["name"]
                 result["description"] = job["description"]
                 result["skill_score"] = job["skill_score"]
@@ -326,60 +325,7 @@ if st.session_state.analysis_complete:
                 for item in job["ats_tips"]:
                     st.write(f"• {item}")
 
-                st.divider()
+               
 
-                if st.button(
-                    f"✨ Improve Resume for {job['company']}",
-                    key=f"resume_optimizer_{job['company']}"
-                ):
-
-                    with st.spinner(
-                        "Optimizing Resume..."
-                    ):
-
-                        improved = ResumeOptimizer.optimize(
-                            resume,
-                            job["description"]
-                        )
-
-                    st.success("Resume Optimized")
-
-                    st.subheader(
-                        "📝 Improved Professional Summary"
-                    )
-                    st.write(
-                        improved["summary"]
-                    )
-
-                    st.subheader(
-                        "💼 Improved Experience"
-                    )
-
-                    for exp in improved["experience"]:
-                        st.write(f"• {exp}")
-
-                    st.subheader(
-                        "🛠 Recommended Skills"
-                    )
-
-                    if improved["skills"]:
-                        st.write(
-                            ", ".join(
-                                improved["skills"]
-                            )
-                        )
-                    else:
-                        st.write("None")
-
-                    st.subheader(
-                        "🔑 Missing Keywords"
-                    )
-
-                    if improved["keywords"]:
-                        st.write(
-                            ", ".join(
-                                improved["keywords"]
-                            )
-                        )
-                    else:
-                        st.write("None")
+                
+                CoverLetterGenerator.show(job)
