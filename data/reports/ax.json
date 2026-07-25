@@ -1,0 +1,67 @@
+{
+    "match_score": 60,
+    "ats_score": 70,
+    "interview_probability": 40,
+    "strengths": [
+        "data analysis",
+        "SQL",
+        "Python",
+        "data visualization",
+        "Power BI"
+    ],
+    "weaknesses": [
+        "limited finance experience",
+        "no direct experience with Gen-AI trends"
+    ],
+    "missing_skills": [
+        "Tableau",
+        "PySpark",
+        "Hive",
+        "Google Cloud"
+    ],
+    "resume_improvements": [
+        "tailor resume to finance industry",
+        "highlight communication skills"
+    ],
+    "salary_estimate": {
+        "minimum": "400000",
+        "maximum": "600000",
+        "currency": "INR"
+    },
+    "cover_letter_advice": "emphasize ability to learn and adapt to new technologies and processes",
+    "learning_plan": [
+        "finance concepts",
+        "Gen-AI trends",
+        "data mining and cleansing"
+    ],
+    "company": "ax",
+    "tailored_resume": {
+        "professional_summary": "Highly motivated and detail-oriented Data Analyst with experience in data cleaning, analysis, and reporting. Proficient in SQL, Python, and data visualization tools like Power BI. Strong understanding of data mining, cleansing, and extraction/transformation. Excellent communication skills and a positive attitude towards learning and development.",
+        "improved_experience": [
+            "Utilized SQL and Python to analyze and report on large datasets, identifying trends and insights to inform business decisions.",
+            "Developed and maintained comprehensive documentation and SOPs for governance, ensuring data quality and process efficiency.",
+            "Created data visualizations using Power BI, providing stakeholders with actionable insights and recommendations.",
+            "Collaborated with cross-functional teams to identify opportunities for process optimization and enhancement, driving business growth and improvement."
+        ],
+        "keywords": [
+            "Data Analysis",
+            "SQL",
+            "Python",
+            "Power BI",
+            "Data Visualization",
+            "Data Mining",
+            "Data Cleansing",
+            "Process Optimization",
+            "Business Intelligence"
+        ],
+        "ats_tips": [
+            "Tailor your resume to the specific job description, highlighting relevant skills and experiences.",
+            "Use keywords from the job description in your resume, especially in your professional summary and experience sections.",
+            "Emphasize your ability to work with data, analyze trends, and provide insights to stakeholders.",
+            "Highlight your experience with data visualization tools like Power BI and your ability to create comprehensive documentation and SOPs."
+        ]
+    },
+    "cover_letter": {
+        "cover_letter": "Dear Hiring Manager, I am excited to apply for the Finance Trainee Apprentice position at American Express, as advertised. With a strong foundation in data analysis and a passion for process improvement, I am confident that I can make a valuable contribution to your team. As a junior data analyst with experience in cleaning, analyzing, and reporting on data across various industries, I possess the skills required to support key analytical and reporting processes within the organization. My proficiency in programming languages such as Python, SQL, and data visualization tools like Power BI will enable me to execute and maintain data models and processes, as well as provide tactical support for ongoing analytics. I am eager to learn and develop my skills further, and I am excited about the opportunity to work with a dynamic team and contribute to the success of American Express. I am particularly drawn to this role because of the emphasis on process management, automation, transformation, and migration to Cloud, which aligns with my interests and skills. I am confident that my strong work ethic, positive attitude, and willingness to learn will make me a valuable asset to the team. In addition to my technical skills, I possess excellent verbal and written communication skills, which will enable me to effectively collaborate with colleagues and communicate complex ideas to stakeholders. I am impressed by American Express's commitment to innovation, customer service, and employee well-being, and I am excited about the opportunity to be part of a team that values trust, security, and service. Thank you for considering my application. I would welcome the opportunity to discuss my qualifications further and explain in greater detail why I am the ideal candidate for this role. Sincerely, Priyanshu Singh"
+    }
+}

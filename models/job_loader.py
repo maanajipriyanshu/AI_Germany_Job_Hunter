@@ -1,24 +1,15 @@
-import os
-
-
 class JobLoader:
 
     @staticmethod
-    def load_jobs(folder):
+    def load_jobs(uploaded_files):
 
         jobs = []
 
-        for file in os.listdir(folder):
+        for file in uploaded_files:
 
-            if file.endswith(".txt"):
-
-                path = os.path.join(folder, file)
-
-                with open(path, "r", encoding="utf-8") as f:
-
-                    jobs.append({
-                        "name": file.replace(".txt", ""),
-                        "description": f.read()
-                    })
+            jobs.append({
+                "name": file.name.replace(".txt", ""),
+                "description": file.read().decode("utf-8")
+            })
 
         return jobs

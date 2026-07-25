@@ -1,7 +1,7 @@
 {
     "match_score": 60,
-    "ats_score": 70,
-    "interview_probability": 40,
+    "ats_score": 80,
+    "interview_probability": 70,
     "strengths": [
         "data analysis",
         "SQL",
@@ -9,27 +9,36 @@
         "data validation",
         "business intelligence"
     ],
-    "weaknesses": [
-        "lack of direct experience in AI-generated content evaluation",
-        "limited experience in Google Workspace"
-    ],
     "missing_skills": [
         "5+ years of relevant professional experience",
-        "experience with Google Slides"
+        "native or professional fluency in English is met but not highlighted as a strength"
     ],
     "resume_improvements": [
-        "tailor resume to highlight relevant experience",
-        "include specific examples of evaluating technical documents"
+        "highlight English fluency",
+        "emphasize experience evaluating technical documents",
+        "quantify achievements in data analysis"
     ],
-    "salary_estimate": {
-        "minimum": "80",
-        "maximum": "120",
-        "currency": "USD"
-    },
-    "cover_letter_advice": "highlight relevant experience and skills, and express enthusiasm for the role and company",
     "learning_plan": [
-        "learn about AI-generated content evaluation",
-        "familiarize yourself with Google Workspace and Google Slides"
+        "develop expertise in evaluating AI-generated artifacts",
+        "improve knowledge of Google Workspace and Microsoft Office"
     ],
+    "professional_summary": "Junior Data Analyst with experience in data analysis, SQL, and Python, looking for analyst roles in Germany",
+    "improved_experience": [
+        "Data Analyst - Contract",
+        "Data Analyst Intern"
+    ],
+    "keywords": [
+        "data analysis",
+        "SQL",
+        "Python",
+        "data validation",
+        "business intelligence",
+        "AI-generated artifacts"
+    ],
+    "ats_tips": [
+        "tailor resume to job description",
+        "highlight relevant skills and experience"
+    ],
+    "cover_letter": "Dear Hiring Manager, I am excited to apply for the Data Analyst role and contribute my skills in data analysis and evaluation to ensure the quality of AI-generated outputs.",
     "company": "job"
 }

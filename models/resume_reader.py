@@ -1,17 +1,17 @@
 import pdfplumber
-import warnings
-
-warnings.filterwarnings("ignore")
 
 
 class ResumeReader:
 
     @staticmethod
-    def read_pdf(file_path):
+    def read_pdf(pdf_file):
+
         text = ""
 
-        with pdfplumber.open(file_path) as pdf:
+        with pdfplumber.open(pdf_file) as pdf:
+
             for page in pdf.pages:
+
                 page_text = page.extract_text()
 
                 if page_text:
