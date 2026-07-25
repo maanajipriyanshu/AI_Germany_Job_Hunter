@@ -114,7 +114,20 @@ if st.session_state.analysis_complete:
             total = len(selected_jobs)
 
             for index, job in enumerate(selected_jobs):
-                result = Analyzer.analyze(resume, job["description"], recruiter_prompt)
+                result = Analyzer.analyze(
+                    resume,
+                    job["description"],
+                    recruiter_prompt
+                )
+
+                # Check if analysis failed
+                if result is None:
+                    st.error(f"AI analysis failed for {job['name']}")
+                    continue
+
+                if isinstance(result, dict) and result.get("success") is False:
+                    st.error(f"{job['name']}: {result['error']}")
+                    continue
                 result["company"] = job["name"]
                 result["description"] = job["description"]
                 result["skill_score"] = job["skill_score"]

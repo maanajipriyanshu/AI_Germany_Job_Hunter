@@ -29,13 +29,37 @@ class GroqProvider:
         self.client = Groq(api_key=api_key)
 
     def analyze(self, prompt):
-        response = self.client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.2
-        )
+        def analyze(self, prompt):
+                try:
+                    response = self.client.chat.completions.create(
+                        model="llama-3.3-70b-versatile",
+                        messages=[{"role": "user", "content": prompt}],
+                        temperature=0.2
+                    )
+        
+                    response_text = response.choices[0].message.content
+                    response_text = response_text.replace("```json", "").replace("```", "").strip()
+        
+                    return json.loads(response_text)
+        
+                except RateLimitError as e:
+                    return {
+                        "success": False,
+                        "error": "Groq daily token limit reached. Please wait or upgrade your Groq plan.",
+                        "details": str(e)
+                    }
+        
+                except json.JSONDecodeError:
+                    return {
+                        "success": False,
+                        "error": "The model returned invalid JSON."
+                    }
+        
+                except Exception as e:
+                    return {
+                        "success": False,
+                        "error": str(e)
+                    }
 
-        response_text = response.choices[0].message.content
-        response_text = response_text.replace("```json", "").replace("```", "").strip()
 
-        return json.loads(response_text)
+
