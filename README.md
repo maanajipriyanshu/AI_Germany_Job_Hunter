@@ -6,10 +6,6 @@ A resume analysis tool that scores your resume against multiple job descriptions
 
 ![App screenshot](assets/Screenshot.png)
 
-<video src="[https://github.com/maanajipriyanshu/ai_germany_job_hunter/assets/](https://github.com/maanajipriyanshu/ai_germany_job_hunter/assets/YOUR-VIDEO-ID/streamlit-app-demo.webm)demo.mp4" controls width="800">
-  Your browser doesn't support embedded video. <a href="assets/demo.webm">Download the demo instead</a>.
-</video>
-
 ## What it does 
 
 Upload a resume and a batch of job description files, and the app runs two passes:
